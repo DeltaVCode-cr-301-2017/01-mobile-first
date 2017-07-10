@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 1</title>
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
-
+  <!-- TODO DONE: Add a meta tag to properly set the viewport and initial scale -->
+  <meta name=viewport content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="vendor/styles/normalize.css">
-  <!-- REVIEW: Icon Fonts - Lets talk about why and how to use them best! -->
+  <!-- REVIEW DONE: Icon Fonts - Lets talk about why and how to use them best! -->
   <link rel="stylesheet" href="styles/icons.css">
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/layout.css">
@@ -16,19 +16,19 @@
 <body>
   <header class="site-header clearfix">
     <section class="heading-group-h1">
-      <h1>
+      <h1 class="blogTitle">
         Kilovolt Blog!
       </h1>
       <h2>The shocking power of static pages</h2>
     </section>
     <nav class="main-nav">
-      <!-- TODO: Add a hamburger menu icon here. -->
-
+      <!-- TODO DONE: Add a hamburger menu icon here. -->
+      <i class="icon-menu" id="hamburger"></i>
       <ul>
-        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
-        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        <li class="tab is-active" data-content="articles"><a href="#" class="icon-home"><span class="tab"> Home</span> </a></li>
+        <li class="tab" data-content="about"><a href="#" class="icon-address-book"><span class="tab"> About</span></a></li>
+        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"><span class="tab"> Twitter</span></a></li>
+        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"><span class="tab"> GitHub</span></a></li>
       </ul>
     </nav>
   </header>
