@@ -58,3 +58,20 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
+@media only screen and (min-width: 321px){
+
+#hamburger {
+  display: none;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-right: .4em;
+  font-size: 1.5em;
+  padding: .5em .2em;
+  border-bottom: 1px solid #ccc;
+}
+.main-nav ul {
+  text-align: center;
+}
+}
