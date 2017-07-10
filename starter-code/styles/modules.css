@@ -68,10 +68,11 @@
   display: inline-block;
   margin-right: .4em;
   font-size: 1.5em;
-  padding: .5em .2em;
+  padding: .5em 2em;
   border-bottom: 1px solid #ccc;
 }
 .main-nav ul {
   text-align: center;
 }
+
 }
