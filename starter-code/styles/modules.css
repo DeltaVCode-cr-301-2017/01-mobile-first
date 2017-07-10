@@ -12,6 +12,8 @@
 #hamburger{
   float: right;
   font-size: 2.5em;
+  border-bottom: none;
+  padding: 0px;
 }
 
 .main-nav {
@@ -69,7 +71,7 @@
   margin-right: .4em;
   font-size: 1.5em;
   padding: .5em 2em;
-  border-bottom: 1px solid #ccc;
+  border-bottom: none;
 }
 .main-nav ul {
   text-align: center;
