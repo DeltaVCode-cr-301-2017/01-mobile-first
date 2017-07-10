@@ -8,7 +8,12 @@
   padding: 0 0 .2em 1em;
 }
 
-/* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
+/* REVIEW: Add styles for the icon-menu class. It should be bigger, and off to the right. */
+.icon-menu{
+  display: block;
+  float: right;
+  font-size: 2em;
+}
 
 .main-nav {
   padding: 0.1em;
@@ -55,3 +60,18 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
+@media only screen and (min-width: 600px){
+  .main-nav ul {
+    display: block;
+  }
+  .main-nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 24%;
+    text-align: center;
+  }
+  .icon-menu{
+    display: none;
+  }
+}
