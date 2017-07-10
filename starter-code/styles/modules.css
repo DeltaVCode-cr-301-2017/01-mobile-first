@@ -1,11 +1,19 @@
 .site-header {
-  background: #FFEAAA;
+  background: gainsboro;
+  text-align: center;
 }
 
 /* REVIEW: Float the main header to the left, to make room for the hamburger menu. */
 .heading-group-h1 {
-  float: left;
   padding: 0 0 .2em 1em;
+  margin: 0 auto;
+}
+
+.blogTitle{
+  margin: 0px auto;
+  padding-top: 20px;
+  letter-spacing: .1em;
+  font-size: 5em;
 }
 
 /* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
@@ -35,6 +43,7 @@
   font-size: 1.5em;
   padding: .5em .2em;
   border-bottom: 1px solid #ccc;
+  font-family: sans-serif;
 }
 
 #filters {
@@ -71,10 +80,25 @@
   margin-right: .4em;
   font-size: 1.5em;
   padding: .5em 2em;
-  border-bottom: none;
-}
-.main-nav ul {
-  text-align: center;
+  border: 2px solid dimgrey;
+  border-bottom: 0px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: white;
+
 }
 
+.main-nav .is-active {
+  background-color: silver;
+}
+
+
+.main-nav ul {
+  margin-bottom: 0px;
+  text-align: center;
+
+}
+  .main-nav {
+    padding: 0px;
+  }
 }
