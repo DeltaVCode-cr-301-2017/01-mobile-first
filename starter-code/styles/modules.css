@@ -29,6 +29,7 @@
 }
 
 .main-nav ul {
+  display: none;
   padding: 0;
   list-style: none;
   clear: both;
@@ -68,35 +69,34 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
-@media only screen and (min-width: 450px){
+@media only screen and (min-width: 850px){
 
-#hamburger {
-  display: none;
-}
+  #hamburger {
+    display: none;
+  }
 
-.main-nav li {
-  display: inline-block;
-  margin-right: .4em;
-  font-size: 1.5em;
-  padding: .5em 2em;
-  border: 2px solid dimgrey;
-  border-bottom: 0px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  background-color: white;
+  .main-nav li {
+    display: inline-block;
+    margin-right: .4em;
+    font-size: 1.5em;
+    padding: .5em 2em;
+    border: 2px solid dimgrey;
+    border-bottom: 0px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: white;
+  }
 
-}
+  .main-nav .is-active {
+    background-color: silver;
+  }
 
-.main-nav .is-active {
-  background-color: silver;
-}
+  .main-nav ul {
+    margin-bottom: 0px;
+    text-align: center;
+    display: block;
+  }
 
-
-.main-nav ul {
-  margin-bottom: 0px;
-  text-align: center;
-
-}
   .main-nav {
     padding: 0px;
   }
